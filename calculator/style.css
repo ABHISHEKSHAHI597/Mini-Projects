@@ -1,0 +1,41 @@
+body{
+            background-color: black;
+            font-style: arial;
+            color: white;
+
+        }
+        .grey-button{
+            background-color: rgb(51, 51, 51);
+            color: white;
+            border: none;
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        
+        .clear-button{
+            background-color: rgb(51, 51, 51);
+            color: white;
+            border: none;
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: x-small;
+        }
+
+        .orange-button{
+            background-color: rgb(254, 160, 10);
+            color: white;
+            border: none;
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: medium;
+        }
+
+        .calculations{
+            font-size: large;
+        }
