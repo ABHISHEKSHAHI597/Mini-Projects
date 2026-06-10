@@ -60,3 +60,9 @@ container.addEventListener('click', (event) => {
     }
 
 });
+
+document.querySelector('.del-all').addEventListener('click',()=>{
+    todo = [];
+    localStorage.setItem('todo', JSON.stringify(todo));
+    get();
+})

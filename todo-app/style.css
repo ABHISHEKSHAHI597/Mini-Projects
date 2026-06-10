@@ -82,7 +82,7 @@ p{
 margin-top: 30px;
 margin-left: 100px;
 height: 50px;
-width: 600px;
+width: 610px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -95,4 +95,19 @@ input{
 
 .heading{
     font-weight: 700;
+}
+
+.del-all{
+    color: rgb(27, 25, 25);
+    background-color: red;
+    border: none;
+    width: 110px;
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.del-all:hover{
+    color: white;
+    cursor: pointer;
 }
