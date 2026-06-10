@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body{
+    background-color: rgba(128, 128, 128,0.1);
+}
+
 .flex{
     display: flex;
     align-items: center;
@@ -13,19 +17,19 @@
 .header{
     width: 100%;
     background-color: lightskyblue;
-    height: 100px;
+    height: 60px;
 }
 
 h1{
     color: black;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .container{
     display: grid;
     margin-top: 50px;
     margin-left: 60px;
-    gap: 30px;
+    gap: 20px;
 }
 
 .items{
@@ -34,9 +38,8 @@ h1{
 }
 
 p{
-    font-size: xx-large;
+    font-size: x-large;
     margin-left: 50px;
-    /* padding-top: 50px; */
 }
 
 .btn{
@@ -48,7 +51,6 @@ p{
     margin-left: 50px;
     border: none;
     border-radius: 10px;
-    /* cursor: pointer; */
 }
 
 .btn:hover{
@@ -58,4 +60,39 @@ p{
 
 .del{
     color: red;
+    margin-left: 60px;
+}
+
+.add{
+    color: rgb(27, 25, 25);
+    background-color: green;
+    border: none;
+    width: 80px;
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.add:hover{
+    color: white;
+    
+}
+
+.div-add{
+margin-top: 30px;
+margin-left: 100px;
+height: 50px;
+width: 600px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+input{
+    height: 40px;
+    padding-left: 10px;
+}
+
+.heading{
+    font-weight: 700;
 }
