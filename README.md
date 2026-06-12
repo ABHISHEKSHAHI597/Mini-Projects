@@ -11,10 +11,10 @@ https://abhishekshahi597.github.io/Mini-Projects/
 Manage daily tasks with Local Storage support.
 
 ### 🧮 Calculator
-A simple calculator built using HTML, CSS, and JavaScript.
+Perform calculations seamlessly with a calculator built using HTML, CSS, and JavaScript, featuring Local Storage to retain data between visits.
 
 ### ✂️ Rock Paper Scissors
-Play Rock Paper Scissors against the computer.
+Play Rock Paper Scissors against the computer with scores automatically saved using Local Storage.
 
 ### 🎲 Random Choice Picker
 Enter multiple choices and let the app randomly select one.
